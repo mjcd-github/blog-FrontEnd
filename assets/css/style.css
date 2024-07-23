@@ -1,0 +1,376 @@
+/* RESET DE PAGINA */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Header */
+.header {
+  width: 100%;
+  height: 80px;
+  align-content: center;
+  border-bottom: 1px solid #808080;
+}
+.logo {
+  display: inline-flex;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.logo__image {
+  max-width: 40px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #808080;
+}
+/* Columna Izquierda (article) */
+.article {
+  text-align: center;
+  border-bottom: 1px solid #808080;
+}
+
+.article__title {
+  text-align: left;
+  font-weight: 700;
+  margin-left: 350px;
+  padding: 50px 0px;
+}
+.article__row {
+  display: inline-flex;
+  text-align: center;
+}
+
+.article__card {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+.article__image-boot {
+  width: 800px;
+  text-align: left;
+  border-radius: 30px;
+  height: 400px;
+  object-fit: cover;
+}
+.article__logo {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px #808080;
+  margin-right: 10px;
+}
+.article__pie {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.article__link--style {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+/* Columna derecha (Aside) */
+.article__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-aside__grid {
+  display: inline-flex;
+  align-items: center;
+  margin: 20px 20px;
+}
+.article-aside__image {
+  width: 200px;
+  text-align: right;
+  height: auto;
+  border-radius: 10px;
+}
+
+.article-aside__info {
+  display: block;
+  text-align: left;
+  margin: 0px 20px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.article-aside__logo {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px #808080;
+  margin-right: 10px;
+}
+
+.article-aside__link--style {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.article-aside__pie {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+/* SECCIÓN POPULAR */
+
+.popular {
+  display: inline-flex;
+  height: auto;
+  border-bottom: 1px solid #808080;
+  justify-content: center;
+}
+.popular__title {
+  text-align: left;
+  font-weight: 700;
+  margin-left: 100px;
+  padding: 50px 0px;
+}
+.popular__contenedor {
+  display: inline-flex;
+  width: 70%;
+}
+.popular__row {
+  display: block;
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+.popular__grid {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.popular__card {
+  display: block;
+  margin: 20px 40px;
+}
+
+.popular__card-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.popular__card-info {
+  display: block;
+  text-align: left;
+  margin: 0px 0px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.popular__logo {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px #808080;
+  margin-right: 10px;
+}
+
+.popular__link--style {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.popular__pie {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+/* ASIDE CATEGORIAS */
+.popular__categorias {
+  display: flex;
+  width: 37%;
+  justify-content: center;
+}
+
+.popular-categorias__container {
+  width: 50%;
+}
+.popular-categorias__title {
+  text-align: left;
+  font-weight: 700;
+  padding: 50px 0px;
+}
+.popular-categorias__image {
+  width: 60px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.popular-container {
+  display: inline-flex;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 17px 0px;
+  border-radius: 10px;
+  align-items: center;
+  width: 250px;
+  height: 70px;
+}
+.popular-container__p--align {
+  width: 90%;
+  margin-right: 10px;
+  text-align: right;
+}
+.popular-container__html--color {
+  background: #e93e30;
+}
+.popular-container__js--color {
+  background: #f7e018;
+}
+.popular-container__css--color {
+  background: #299ed5;
+}
+.popular-container__react--color {
+  background: #292c33;
+}
+.popular-container__vue--color {
+  background: #67c770;
+}
+.popular-container__bootstrap--color {
+  background: #563d7c;
+}
+.popular-categorias__links {
+  text-decoration: none;
+}
+/* SECCION FOOTER */
+.footer {
+  display: inline-flex;
+  width: 100%;
+  height: 80px;
+  align-content: center;
+}
+.footer__logo {
+  display: inline-flex;
+  margin-left: 100px;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-logo__image {
+  max-width: 40px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #808080;
+}
+
+.footer__copy {
+  width: 50%;
+  text-align: right;
+  align-content: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 100px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .article {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .article__row {
+    display: block;
+    width: 100%;
+  }
+  .article__title {
+    margin: 5px;
+    text-align: center;
+  }
+  .article__card {
+    margin: 10px;
+    border-bottom: 1px solid #808080;
+  }
+  .article__image-boot {
+    width: 100%;
+    height: auto;
+
+    border-radius: 5px;
+  }
+  .article-aside__grid {
+    display: block;
+  }
+  .popular {
+    display: block;
+  }
+  .popular__title {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .popular__contenedor {
+    display: block;
+    justify-content: center;
+    width: 100%;
+  }
+  .popular__row {
+    display: block;
+    width: 100%;
+    margin: 2px;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 10px;
+  }
+  .popular__grid {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .popular__card {
+    width: 100%;
+    margin: 0;
+  }
+  .popular__card-info {
+    margin-left: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .popular__categorias {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .popular-categorias__title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .popular-categorias__container {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .footer__logo {
+    width: 100%;
+  }
+  .footer__copy {
+    width: 100%;
+    text-align: center;
+  }
+}
